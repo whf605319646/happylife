@@ -11,6 +11,8 @@ cd docs/.vuepress/dist
 
 # deploy to github
 echo 'www.hfwang.win' > CNAME
+git config --global user.name "whf605319646"
+git config --global user.email "whf605319646@163.com"
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:whf605319646/happylife.git
