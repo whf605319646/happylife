@@ -13,10 +13,10 @@ cd docs/.vuepress/dist
 echo 'www.hfwang.win' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:whf605319646/whf605319646.github.io.git
+  githubUrl=git@github.com:whf605319646/happylife.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://whf605319646:${GITHUB_TOKEN}@github.com:whf605319646/whf605319646.github.io.git
+  githubUrl=https://whf605319646:${GITHUB_TOKEN}@github.com:whf605319646/happylife.git
   git config --global user.name "whf605319646"
   git config --global user.email "whf605319646@163.com"
 fi
