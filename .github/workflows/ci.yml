@@ -18,9 +18,9 @@ jobs: # 工作流
 
     steps: # 步骤
       - name: Checkout # 步骤1
-        uses: actions/checkout@master # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
+        uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
       - name: Use Node.js ${{ matrix.node-version }} # 步骤2
-        uses: actions/setup-node@master # 作用：安装nodejs
+        uses: actions/setup-node@v1 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
       # - name: run deploy.sh # 步骤3 （同时部署到github和coding）
@@ -33,8 +33,8 @@ jobs: # 工作流
           npm install
           npm run build
       - name: Deploy # 步骤4 （只提交到github可以使用这个步骤）
-        uses: JamesIves/github-pages-deploy-action@3.5.9 # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
-        with: # 设置环境变量
+        uses: JamesIves/github-pages-deploy-action@master # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
+        env: # 设置环境变量
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
           BASE_BRANCH: master # 要部署的文件夹所在的分支.
           BRANCH: gh-pages # 部署到的分支
