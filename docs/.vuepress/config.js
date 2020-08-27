@@ -189,7 +189,7 @@ module.exports = {
       {
         transformer: (timestamp, lang) => {
           const moment = require('moment') // https://momentjs.com/
-          return moment(timestamp).utc().format('YYYY/MM/DD, HH:mm:ss');
+          return moment(timestamp).utcOffset("+08:00").format('YYYY/MM/DD, HH:mm:ss');
         }
       }
     ]
