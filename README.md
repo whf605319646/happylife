@@ -3,13 +3,8 @@
 <p align="center">
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/actions?query=workflow%3ACI"><img src="https://github.com/xugaoyi/vuepress-theme-vdoing/workflows/CI/badge.svg" alt="CI"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/actions?query=workflow%3AbaiduPush"><img src="https://github.com/xugaoyi/vuepress-theme-vdoing/workflows/baiduPush/badge.svg" alt="baiduPush"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xugaoyi/vuepress-theme-vdoing
-" alt="License"></a>
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/stargazers"><img src="https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing?logo=ReverbNation&logoColor=rgba(255,255,255,.6)" alt="GitHub stars"></a>
-
- 
-
 </p>
 
 <h2 align="center">vuepress-theme-vdoing</h2>
@@ -62,27 +57,10 @@ npm run dev # or yarn dev
 
 - **Star** 并 分享这个项目 :rocket:
 - 保留主题 footer(页脚) 的主题链接 :D
-- 通过以下二维码 一次性捐款。 我多半会买一杯 ~~咖啡~~ 茶。:tea:
-
-谢谢！ :heart:
-
-| 微信赞赏 | 微信 | 支付宝 |
-| :---: | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200523131533.jpg" alt="赞赏码" width=150> | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=150> |
-
-二维码没有正常显示？点 [这里😎](https://doc.xugaoyi.com/vuepress-theme-vdoing-doc/pages/1b12ed/)
 
 ## 致谢
 :heart:感谢支持这个项目的朋友
 
 :heart:感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/xugaoyi/vuepress-theme-vdoing/graphs/contributors)
 
-## Vdoing官方交流群
-群号：694387113
-
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号：694387113" width="200">
-
-## 许可证
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
-
-Copyright (c) 2019-present Iwen
+Copyright (c) 2017-present Iwen

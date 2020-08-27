@@ -21,8 +21,8 @@ module.exports = {
   themeConfig: { // 主题配置
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/EB-logo.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    logo: '/img/logo.png', // 导航栏logo
+    repo: 'whf605319646/happylife', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -59,7 +59,7 @@ module.exports = {
     
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
       name: 'wanghaifeng', // 必需
-      link: 'https://github.com/xugaoyi' // 可选的
+      link: 'https://github.com/whf605319646' // 可选的
     },
     blogger:{ // 博主信息，显示在首页侧边栏
       avatar: 'https://static01.imgkr.com/temp/9d7a8f7310dd404a968e04dc00b8211f.png',
@@ -72,12 +72,12 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com'
+          link: 'mailto:2445181001@qq.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi'
+          link: 'https://github.com/whf605319646'
         },
         {
           iconClass: 'icon-erji',
@@ -87,7 +87,7 @@ module.exports = {
       ]
     },
     footer:{ // 页脚信息
-      createYear: 2019, // 博客创建年份
+      createYear: 2017, // 博客创建年份
       copyrightInfo: 'Iwen | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     }
   },
